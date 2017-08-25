@@ -4,11 +4,17 @@ It’s simply a type of substitution cipher, i.e., each letter of a given text i
 To cipher a given text we need an integer value, known as shift which indicates the number of position each letter of the text has been moved down.
 
 Examples :
+
 Text : ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
 Shift: 23
+
 Cipher: XYZABCDEFGHIJKLMNOPQRSTUVW
+
 Text : ATTACK AT ONCE
+
 Shift: 4
+
 Cipher: EXXEGO EX SRGI
 
 Write a function "ceasarEncrypt" to receive a piece of plain text and an integer shift, and return the encrypted text, and a function "ceasarDecrypt" to receive a piece of encrypted text and an integer shift, and return the original text.
